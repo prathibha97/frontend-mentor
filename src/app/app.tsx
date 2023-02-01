@@ -1,11 +1,12 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import ProductPreview from 'src/components/ProductPreview/ProductPreview';
+import styles from './app.module.css'
 
 export function App() {
   return (
     <>
-      <NxWelcome title="frontend" />
+      <h1 className={styles.heading}>Frontend Challenges</h1>
+      <ProductPreview/>
       <div />
     </>
   );
